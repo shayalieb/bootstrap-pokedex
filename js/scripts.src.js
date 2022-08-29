@@ -1,4 +1,3 @@
-
 let pokemonRepository = function() {
     let pokemonList = [];
     let apiUrl = 'https://pokeapi.co/api/v2/pokemon/?limit=150';
@@ -10,7 +9,7 @@ let pokemonRepository = function() {
         }else{
             console.log('This is not a pokemon!');
         }
-    };
+    }
 
     function loadList () {
         return fetch(apiUrl).then(function(response) {
@@ -30,24 +29,25 @@ let pokemonRepository = function() {
     
     function getAll() {
         return pokemonList;
-    };
+    }
     function listItem(pokemon) {
-        let pokemonList = document.querySelector(".list-group");
-        let listItem = document.createElement("li")
+        let pokemonList = document.querySelector('.list-group');
+        let listItem = document.createElement('li')
         listItem.classList.add('group-list-item')
-        let button = document.createElement("button")
+        let button = document.createElement('button')
         button.setAttribute('data-toggle', 'modal');
         button.setAttribute('data-target', '#pokemonModal' + pokemon.name);
         // addPokemonListener(button, pokemon);
         addPokemonModal(pokemon);
         button.innerText = pokemon.name;
-        button.classList.add("button-class");
+        button.classList.add('button-class');
         listItem.appendChild(button);
         pokemonList.appendChild(listItem);
         //showDetails(pokemon);
         }
     
     function addPokemonModal (pokemon){
+        // eslint-disable-next-line no-undef
         let $baseModal = $('#baseModal');
         let $pokemonModal = $baseModal.clone();
         loadDetails(pokemon).then(function() {
@@ -61,11 +61,8 @@ let pokemonRepository = function() {
     
             $pokemonModal.appendTo('body');
         })
- 
+
     }    
-   
-
-
 
     function loadDetails(item) {
         let url = item.detailsUrl;
@@ -84,6 +81,7 @@ let pokemonRepository = function() {
     function showDetails(pokemon) {
         console.log(pokemon);
         loadDetails(pokemon).then(()=> {
+            // eslint-disable-next-line no-undef
             showModal(pokemon);
         })
     }
