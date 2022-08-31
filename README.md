@@ -1,4 +1,4 @@
-# bootstrap-pokedex
+# bootstrap-Pokedex
 This is Shaya Lieberman's Pokedex and the final project in this achievement.
 
 Project libraries: 
@@ -13,5 +13,5 @@ CSS
 Linters:
 ESlint
 
-for more info i can be contacted at:
+for more info I can be contacted at:
 shayalieberman@gmail.com
