@@ -11,8 +11,10 @@ https://pokeapi.co/api/v2/pokemon/?limit=150
 ![Pokedex homepage](/img/home-page.jpg)
 
 ## The user chooses a pokemon from the list
+![pokemon info](/img/pokemon-info.png)
+
 By clicking on one of the pokemon's, a pop-up will appear with the relevant info on that pokemon
-![Pokemon info](/img/pokemon-info.png)
+
 
 ## Project details:
 The purpose of this app is to demonstrate  my ability to uer JavaScript to create this app and learn about libraries along the way
