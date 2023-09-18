@@ -11,6 +11,8 @@ https://pokeapi.co/api/v2/pokemon/?limit=150
 ![Pokedex homepage](/img/home-page.jpg)
 
 ## The user chooses a pokemon from the list
+
+A pop-up window will  show a pokemon's details
 ![pokemon info](/img/pokemon-info.png)
 
 By clicking on one of the pokemon's, a pop-up will appear with the relevant info on that pokemon
