@@ -13,7 +13,7 @@ https://pokeapi.co/api/v2/pokemon/?limit=150
 ## The user chooses a pokemon from the list
 
 A pop-up window will  show a pokemon's details
-![pokemon info](/img/pokemon-info.png)
+![pokemon info](/img/pokomons-info.png)
 
 By clicking on one of the pokemon's, a pop-up will appear with the relevant info on that pokemon
 
